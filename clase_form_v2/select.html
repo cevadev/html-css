@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase Form - Select</title>
+</head>
+<body>
+    <main>
+        <!--implementando un combo box pero no utilizando buenas practicas-->
+        <!-- <form action="">
+            <select name="cursos" id="">
+                <option value="Javascript">Javascript</option>
+                <option value="HTML5">HTML5</option>
+                <option value="CSS3">CSS3</option>
+                <option value="Web standards">Web standards</option>
+            </select>
+        </form> -->
+        <form action="">
+            <input list="cursos" />
+            <datalist id="cursos">
+                <option value="Javascript"></option>
+                <option value="HTML5"></option>
+                <option value="Css3"></option>
+                <option value="Web Standards"></option>
+            </datalist>
+        </form>
+    </main>
+</body>
+</html>
