@@ -1,0 +1,16 @@
+/*aplicando estilos por selector*/
+p{
+    color: green;
+    font-size: 45px;
+}
+
+/*aplicando estilos por clase*/
+.texto{
+    color: blue;
+    font-size: 60px;
+}
+/*aplicando estilos por id*/
+#parrafo{
+    color: black;
+    font-size: 60px;
+}

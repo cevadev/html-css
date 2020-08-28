@@ -1,0 +1,33 @@
+.main-nav{
+    margin-top: 10px;
+    list-style: none; /*quitamos los bullets por defecto de las listas ol*/
+    padding-left: 0px;
+    background-color: #13a4a4;
+}
+
+/*estilos para los elementos del nav*/
+.main-nav__item{
+    display: inline-block;
+}
+
+/*aplicamos estilos a los links (etiquea a)*/
+.main-nav__item a{
+    color: white;
+    padding: 5px;
+    text-decoration: none; /*quitamos la lines de link*/
+    border-radius: 2px  ;
+}
+
+/*aplicamos una pseudoclase a los links de navegacion*/
+.main-nav__item a:hover{
+    color: green;
+}
+
+.main-nav__item a:active{
+    color: red;
+}
+
+/*aplicamos un pseudoelemento a los link de navegacion*/
+.main-nav__item a::after{
+    content: " | ";
+}
