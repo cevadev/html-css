@@ -1,0 +1,5 @@
+/*signo ~ se obtiene alt+126 o Alt Gr + tecla al lado de enter*/
+/*aplicamos estilos a todas las etiquetas p que tengan como hermano general a una etiqueta h2*/
+h2 ~ p{
+    color: red;
+}

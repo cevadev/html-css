@@ -1,0 +1,5 @@
+/*Aplica estilos a todas las etiquetas p que tengan como padre directo (>) a una etiqueta div o también
+  la etiqueta parrafo que sea hija directa de una etiqueta div*/
+div > p{
+    color: red;
+}

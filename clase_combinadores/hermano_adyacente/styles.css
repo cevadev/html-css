@@ -1,0 +1,5 @@
+/*Aplicamos estilos a todas las etiquetas p que esten cerca de una etoquta h2, esta regla se aplica
+  gracias al signo +*/
+h2 + p{
+    color: red;
+}
