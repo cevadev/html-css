@@ -1,0 +1,13 @@
+main{
+    background-color: red;
+    width: 100%;
+    height: 500px;
+}
+
+p{
+    /*pixeles -> medida absoluta
+    * porcentaje -> medida relativa que hereda del padre y le aplica el porcentaje indicado
+    */
+    /*font-size: 50%; /*toma el font-size del html que es 16 y le asigna como fot-size el 18% de esa medida absoluta*/
+    font-size: 16px;
+}
