@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* html{
+    font-size: 62.5%;
+}
+ */
+main{
+    /*hacemos que el el contenedos main ocupe el 100% del view port*/
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+}
+
+section{
+    width: 80%;
+    /*estabecemos el tamaño mínimo del section*/
+    min-width: 320px;
+    /*limitamos el tamaño del section*/
+    max-width: 500px;
+    /*Establecemos el height minimo pero si el contenido super esta dimension con la medida min-height estamos diciendo
+      crece conforme al contenido que albergas*/
+    min-height: 500px;
+    background-color: green;
+    /*centramos el contenido. 0 margin arriba y abajo pero a los costados que sea automatico el margin 
+      asi logramos que quede centrado el section*/
+    margin: 0 auto;
+}

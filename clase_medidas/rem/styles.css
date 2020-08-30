@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%; /*seteamos el font-size de html a 10px*/
+}
+
+p{
+    /*1rem = 10px debido al estilo colocado a la etiqueta html*/
+    font-size: 1.7rem; /*equivale a 17px*/
+}
+
+main div{
+    font-size: 1.7rem;
+}
