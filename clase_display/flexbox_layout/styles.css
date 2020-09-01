@@ -15,8 +15,10 @@ body{
 .container{
     border: 0.3rem solid black;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    align-items: stretch;
+    /*aumentamos la altura del container para mover los elementos hijos*/
+    height: 50vh;
+
     /*flex-direction: row; */
     /*flex-direction: row-reverse; invierte el orden de los hijos dentro del contenedor */
 }
