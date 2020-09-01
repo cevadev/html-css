@@ -15,28 +15,31 @@ body{
 .container{
     border: 0.3rem solid black;
     display: flex;
-    align-items: baseline;
+    flex-wrap: wrap;
+    /* align-items: baseline; */
     /*aumentamos la altura del container para mover los elementos hijos*/
-    height: 50vh;
+    /* height: 50vh; */
 
     /*flex-direction: row; */
     /*flex-direction: row-reverse; invierte el orden de los hijos dentro del contenedor */
 }
 
 .box{
-    width: 10rem;
+    /* width: 10rem; */
     height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
 }
 
 .box-1{
     background-color: blue;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     /* order: 3; */
 }
 
 .box-2{
     background-color: blueviolet;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     /* order: 1; */
 }
 
@@ -57,5 +60,6 @@ body{
 
 .box-6{
     background-color: salmon;
+    /* flex-grow: 1; */
     /* order: 4; */
 }
