@@ -15,9 +15,10 @@ body{
 .container{
     border: 0.3rem solid black;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     justify-content: space-evenly;
-    /*flex-direction: row; */
+    /*ubicamos los hijos de forma vertical*/ 
+    /* flex-direction: column; */ 
     /*flex-direction: row-reverse; invierte el orden de los hijos dentro del contenedor */
 }
 
